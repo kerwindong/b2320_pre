@@ -24,6 +24,11 @@ run
 ---
 python zipzopzoop.py
 
+Dry-run option:
+- Check the "dry-run (log only no write)" checkbox to run the process without modifying any files
+- This will log all actions that would be taken, but skip the final step of writing the updated zip file
+- Log lines will be appended with [DRY-RUN] to indicate the mode
+
 Simply 
 ---------------------------
 1. look for zip files in every dropped folder
